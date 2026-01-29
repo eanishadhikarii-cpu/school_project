@@ -1,6 +1,6 @@
 # Brilliant Pupils' Secondary School Website
 
-A modern, responsive website for Brilliant Pupils' Secondary School (BPSS) built with React.
+A modern, responsive website for Brilliant Pupils' Secondary School (BPSS) built with pure HTML, CSS, and JavaScript.
 
 ## About
 
@@ -14,41 +14,38 @@ This website showcases Brilliant Education Foundation Pvt. Ltd. and Brilliant Pu
 - Founding members showcase
 - Principal's message
 - Contact information and location
+- Smooth scrolling navigation
+- Mobile-friendly hamburger menu
 
 ## Technology Stack
 
-- React 18.2.0
-- Modern CSS with custom styling
+- HTML5
+- CSS3 with custom styling
+- Vanilla JavaScript
 - Responsive design principles
 
 ## Getting Started
 
-### Prerequisites
+Simply open `index.html` in any modern web browser. No build process or dependencies required.
 
-- Node.js (version 14 or higher)
-- npm or yarn
+### Local Development
 
-### Installation
+1. Clone or download the repository
+2. Open `index.html` in your web browser
+3. The website will load immediately
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## File Structure
 
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-## Available Scripts
-
-- `npm start` - Runs the app in development mode
-- `npm run build` - Builds the app for production
-- `npm test` - Launches the test runner
-- `npm run eject` - Ejects from Create React App (one-way operation)
+```
+├── index.html          # Main HTML file
+├── styles/
+│   └── premium-white.css   # Main stylesheet
+├── images/             # School photos and logo
+│   ├── Bpss Logo.jpeg
+│   └── [member photos]
+├── script.js           # JavaScript functionality
+└── README.md           # This file
+```
 
 ## School Information
 
@@ -63,3 +60,17 @@ This website showcases Brilliant Education Foundation Pvt. Ltd. and Brilliant Pu
 ## Contact
 
 For more information about the school, please visit the contact section on the website.
+
+## Deployment
+
+This is a static website that can be deployed to any web hosting service:
+
+- Upload all files to your web server
+- Ensure `index.html` is in the root directory
+- The website will be accessible immediately
+
+Compatible with:
+- GitHub Pages
+- Netlify
+- Vercel
+- Any static hosting service
